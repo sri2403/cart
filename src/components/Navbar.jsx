@@ -23,7 +23,7 @@ const Navbar = ({ cartCount }) => {
         </div>
         <div className="d-flex">
           <button className="btn btn-outline-dark" type="submit">
-            <i className="bi-cart-fill me-1"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
             Cart
             <span className="badge bg-dark text-white ms-1 rounded-pill">{cartCount}</span>
           </button>
